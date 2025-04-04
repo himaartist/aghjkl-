@@ -2,7 +2,25 @@
     "Name": "WebApp portifólio",
     "short_name": "Portifólio",
     "start_url":"/",
-    "display": "standalone", /*faz o app abrir como app independente*/
-    "background_color": "#FFFFFF.", //cor  undo no crrgamento o app//
+    "display": "standalone",
+    "background_color": "#FFFFFF.", 
     "theme_color":"#000000",
+    "decription": "esse é o app do estudantes do 3° sistema 2025",
+    "id": "portifólio-app",
+    "dir": "lpr",
+    "lang": "pt-br",
+    "icons": [
+        {
+            "scr": "/icons-192.png",
+            "size": "192x192",
+            "tipe": "image/png"
+        },
+
+        {
+            "scr": "/icons-512.png",
+            "size": "512x152",
+            "tipe": "image/png"
+        },
+    
+    ]
 }

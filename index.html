@@ -12,6 +12,13 @@
 
     <title> WebApp - portifólio</title>
     <!-- Regitro do service worker -->
+     <script>
+        if ('ServiceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then (() => console.log("serviceWorker registrado"))
+                .catch((err) => console.error("Erro no ServiceWorker:", err));
+        } 
+     </script>
 
 </head>
 <body>

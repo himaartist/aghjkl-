@@ -31,10 +31,7 @@
             "type": "image.png"
         }
     ],
-    "categories": 
-
-
-
-
-
+    "categories": ["education"],
+    "prefer_related_applications": false,
+    "scope": "/"
 }

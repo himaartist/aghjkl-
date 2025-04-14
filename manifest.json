@@ -1,37 +1,37 @@
 {
-    "Name": "WebApp portifólio",
-    "short_name": "Portifólio",
-    "start_url":"/",
+    "name": "ProfBT",
+    "short_name": "ProfBT",
+    "start_url": "/",
     "display": "standalone",
-    "background_color": "#FFFFFF.", 
-    "theme_color":"#000000",
-    "decription": "esse é o app do estudantes do 3° sistema 2025",
-    "id": "portifólio-app",
-    "dir": "lpr",
-    "lang": "pt-br",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "Este é o app ProfBT, onde você pode acessar conteúdo interativo.",
+    "id": "profbt-app",
+    "dir": "ltr",
+    "lang": "pt",
     "icons": [
-        {
-            "scr": "/icons-192.png",
-            "size": "192x192",
-            "tipe": "image/png"
-        },
-
-        {
-            "scr": "/icons-512.png",
-            "size": "512x512",
-            "tipe": "image/png"
-        }
-    
+      {
+        "src": "/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
     ],
-    "orientation": "portait",
+    "orientation": "portrait",
     "screenshots": [
-        {
-            "src": "/screenshot1.png",
-            "sizes": "320x420",
-            "type": "image.png"
-        }
+      {
+        "src": "/screenshot1.png",
+        "sizes": "320x480",
+        "type": "image/png"
+      }
     ],
-    "categories": ["education"],
+    "categories": ["Education"],
     "prefer_related_applications": false,
+    "push": true,
     "scope": "/"
-}
+  }
+  

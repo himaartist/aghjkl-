@@ -22,5 +22,19 @@
             "tipe": "image/png"
         }
     
-    ]
+    ],
+    "orientation": "portait",
+    "screenshots": [
+        {
+            "src": "/screenshot1.png",
+            "sizes": "320x420",
+            "type": "image.png"
+        }
+    ],
+    "categories": 
+
+
+
+
+
 }

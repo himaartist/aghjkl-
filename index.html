@@ -9,14 +9,15 @@
     
 
     <title> WebApp - portifólio</title>
-    <!-- Regitro do service worker -->
-     <script>
+    <!-- Registro do service worker (nas próximas aulas)-->
+    <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
-                .then (() => console.log("service Worker registrado"))
+                .then(() => console.log("Service Worker registrado."))
                 .catch((err) => console.error("Erro no Service Worker:", err));
-        } 
-     </script>
+        }
+    </script>
+    
 
 </head>
 <body>

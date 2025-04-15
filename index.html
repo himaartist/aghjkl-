@@ -6,17 +6,15 @@
     <title>Portifólio</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
-
     
 
     <title> WebApp - portifólio</title>
     <!-- Regitro do service worker -->
      <script>
-        if ('ServiceWorker' in navigator) {
+        if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
-                .then (() => console.log("serviceWorker registrado"))
-                .catch((err) => console.error("Erro no ServiceWorker:", err));
+                .then (() => console.log("service Worker registrado"))
+                .catch((err) => console.error("Erro no Service Worker:", err));
         } 
      </script>
      <style>
